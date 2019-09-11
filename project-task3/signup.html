@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+        <title>My Notes</title>
+     <link href="https://fonts.googleapis.com/css?family=Acme|Caveat|Courgette&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="features-section/css/bootstrap.min.css"/> 
+   
+        <link rel="stylesheet" href="features-section/css/all.min.css"/> 
+
+
+	
+	<style type="text/css">
+		body{background: url(home-section/image/board.jpg);
+
+		     background-position: center;
+        }
+
+        
+.navbar 
+{
+	background-color: rgba(0,0,0,.6);
+    padding: 0 !important;
+    margin: 0 auto 5px auto!important;    
+    
+}
+
+.navbar-brand
+{
+	margin: auto 0 !important;
+    padding: 0!important;
+}
+.navbar-brand span
+{
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+    font-family: 'Courgette', cursive;
+
+}
+.navbar-brand i
+{
+    font-weight: 400;
+    color: red;
+    
+}
+.nav-link
+{
+    font-family: 'Acme', sans-serif;
+    padding: 10px!important;
+    color: white;
+    font-size: 18px;
+}
+.navbar-toggler-icon i
+{
+    color: white;
+    font-size: 25px;
+}
+.nav-link:hover
+{
+    color: red;
+}
+.regis span:hover
+{
+	color: red;
+}
+.regis 
+{
+	color: white;
+    font-size: 18px;
+    font-family: 'Acme', sans-serif;
+}
+.regis span
+{
+	cursor: pointer;
+    border: 1.5px solid white;
+    padding: 3px;
+}
+
+        
+	.login{width: 230px;
+	       height: 315px;
+	       background-color: #191603; 
+	       margin:80px auto;
+	       opacity: .9;
+	       border-radius: 15px;
+	       box-sizing: border-box; 
+	       color: white;}
+
+	img{border-radius:50%;
+	    position: absolute;
+	    top: -55px;
+	    left: 70px;
+	    position: relative;
+	    width: 90px } 
+
+input{ margin: 0px 29px;
+      border:0px; background-color:#191603;
+      border-bottom: 1px solid white;
+      outline: none;
+      color: white}
+
+
+  h1{margin: -35px 60px;text-align: center;font-size: 22px;position: absolute;color:#bd9b34}    
+
+  p{margin:14px 23px 4px;
+  font-weight: bold;
+text-shadow: 1px 1px 1px 1px white} 
+
+  span{color: #a74c51}
+  button{margin: 25px 65px;
+         background-color: #bd9b34;
+         border-radius: 10px;
+         width: 100px;
+         outline: none;
+          border: 0px;
+          cursor: pointer;}
+
+
+  button:hover{background-color: red; transition: all 1s ease;}
+  a{text-decoration: none;
+  	font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+margin-left: 50px}          
+
+        footer
+{
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+    height: 36px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer i
+{
+    margin: 3px;
+    font-size: 23px;
+    color: red;
+}
+footer span
+{
+    color: white;
+ font-size: 18px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+	</style>
+</head>
+<body>
+    
+    
+    
+   <nav class="navbar navbar-expand-lg navy fixed-top ">
+  <a class="navbar-brand" href="#"><i class="far fa-sticky-note fa-2x"></i><span>MyNote</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home-section/index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About-section/about.html">About us</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="features-section/features.html">Features</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0 regis">
+        <span id="logIn" class="m-2 ml-4" data-toggle="modal" data-target="#exampleModal" >Log In<i class="fas fa-sign-in-alt"></i></span>
+      <span onclick="window.location.href='signup.html'" class="m-2" >Sign up<i class="fas fa-user-plus"></i></span>
+    </form>
+  </div>
+</nav>    
+    
+    
+    
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LOGIN </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        
+      <div class="modal-body">
+        
+            <form class="form-group">
+                
+                <div class="form-group w-75">
+     <input class="form-control mb-3" type="email" placeholder="Email Address">
+     <input class="form-control mb-3" type="password" placeholder="Password">
+       </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn myBtn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" onclick="window.location.href='profile-section/profile.html'" class="btn myBtn2">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+    
+    <br/><br/>    <br/><br/>
+
+	<div class="login ">
+		
+		<img src="someone.png">
+		<h1>Sgin   <span>Up</span> </h1>
+		<form>
+		<p>Username</p>
+
+		<input type="text" name="name" placeholder="your name">
+		<p>Your mail</p>
+		<input type="mail" name="" placeholder="your mail" required="">
+
+		<p>Password</p>
+		<input type="Password" name="" placeholder="password" required="">
+
+		
+     <button>Sgin Up</button>
+ </form>
+	</div>
+
+        <footer ><span class="ml-3 mr-4"><i class="fas fa-phone-alt"></i>+20 01098256702</span><span><i class="far fa-envelope-open"></i>hr_mynote@gmail.com</span><span class="ml-5 pl-5">© 2019 MyNote | all rights reserved</span>
+        </footer>
+    
+    <script src="features-section/js/jquery-3.4.1.min.js"></script>
+    <script src="features-section/js/popper.min.js"></script>
+    <script src="features-section/js/bootstrap.min.js"></script>
+</body>
+</html>

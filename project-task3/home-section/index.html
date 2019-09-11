@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+
+<html >
+
+    <head>
+        <title>MyNotes</title>
+        <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Acme|Caveat|Courgette&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+        <link rel="stylesheet" href="css/all.min.css"/> 
+        <link rel="stylesheet" href="css/style.css"/> 
+        
+    </head>
+    
+    
+    <body>
+        
+        
+   <nav class="navbar navbar-expand-lg navy fixed-top ">
+  <a class="navbar-brand" href="#"><i class="far fa-sticky-note fa-2x"></i><span>MyNote</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../About-section/about.html">About us</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="../features-section/features.html">Features</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0 regis">
+        <span id="logIn" class="m-2 ml-4" data-toggle="modal" data-target="#exampleModal" >Log In<i class="fas fa-sign-in-alt"></i></span>
+      <span onclick="window.location.href='../signup.html'" >Sign up<i class="fas fa-user-plus"></i></span>
+    </form>
+  </div>
+</nav>    
+
+        <div class="sideNav">
+        <div class="sideNavOpt">
+            <div class="bgCol">
+            <span id="bgCol">Background :</span>
+            <ul class="list-unstyled d-flex">
+                <li></li>               
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </div>
+            <div class="fontCol">
+            <span id="fonCol">Font :</span>
+            <ul class="list-unstyled d-flex">
+                <li></li>               
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </div>
+            </div>
+        <div class="instruction text-center"><span>Customize your notes!</span><div class="arrowDown"></div></div><i class="fas fa-cogs "></i>
+        </div>
+        
+        <div class="addNote">
+            <div class="instructionNote"><span>Add new note!</span>
+                <div class="arrowDown2"></div></div><i class="fas fa-plus"></i>
+        </div>
+        
+        
+ 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LOGIN </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        
+      <div class="modal-body">
+        
+            <form class="form-group">
+                
+                <div class="form-group w-75">
+     <input class="form-control mb-3" type="email" placeholder="Email Address">
+     <input class="form-control mb-3" type="password" placeholder="Password">
+       </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn myBtn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" onclick="window.location.href='../profile-section/profile.html'" class="btn myBtn2">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+       
+        
+        <div class="container pl-5 pt-5 mt-5 ">
+            <div class="row ml-5 pl-2" id="myNote">
+             
+                    
+            </div>
+        </div>
+        
+        
+        
+        
+        <footer><span class="ml-3 mr-4"><i class="fas fa-phone-alt"></i>+20 01098256702</span><span><i class="far fa-envelope-open"></i>hr_mynote@gmail.com</span><span class="ml-5 pl-5">© 2019 MyNote | all rights reserved</span>
+        </footer>
+        
+        
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mine.js"></script>
+    </body>
+
+
+</html>

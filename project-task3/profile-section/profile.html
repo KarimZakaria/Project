@@ -1,0 +1,130 @@
+<!Document>
+<html>
+
+<head>
+        <title>My Notes</title>
+     <link href="https://fonts.googleapis.com/css?family=Acme|Caveat|Courgette&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+   
+        <link rel="stylesheet" href="css/all.min.css"/> 
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+		
+	<nav class="navbar navbar-expand-lg navy fixed-top ">
+  <a class="navbar-brand" href="#"><i class="far fa-sticky-note fa-2x"></i><span>MyNote</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../home-section/index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../About-section/about.html">About us</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="../features-section/features.html">Features</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0 regis">
+        <span id="logIn" class="m-2 ml-4" data-toggle="modal" data-target="#exampleModal" >Log Out<i class="fas fa-sign-out-alt"></i></span>
+      <span onclick="window.location.href='../signup.html'" class="m-2" >Sign up<i class="fas fa-user-plus"></i></span>
+    </form>
+  </div>
+</nav>    
+
+        
+        
+        
+		<section class="py-5">
+		<div class="container">
+			
+			<div class="row my-3">
+				
+				<div class="col-md-3 prof text-center">
+					
+				<img src="image/one.jpg" class="img-fluid rounded-circle mt-4">
+					<h2>user name</h2>
+                    <h2>user email</h2>
+                    <h2>another info</h2>
+					<h4 class="mt-4"><a href="../home-section/index.html">home page</a></h4>
+				
+					
+				</div>
+                
+					<div class="col-md-8 text-center mt-5 ml-5">
+						<input id="name" placeholder="note name" class="form-control">
+		<textarea name="message" rows="15" cols="30" class="w-100 form-control"  placeholder="typeing your notes"  id="note"></textarea>
+		<button  class="btn mySave mt-1" id="save" >save</button>
+						
+							<input class="w-100 mt-5"placeholder="search" id="search">
+						<button class="btn mySearch mt-1" > search</button>
+						
+						<div class="container bg-light">
+						<div class="row" id="searchrow">
+							
+							</div>
+						</div>
+				</div>
+				
+			
+			</div>
+			
+			
+			</div>
+		
+ <div class="options d-flex flex-row-reverse position-fixed">
+        
+        <div class="color-options">
+           <h4 >color:</h4>
+            
+            <ul class="list-unstyled ml-3 d-flex ">
+                
+                <li></li>
+                <li> </li>
+                <li></li>
+                <li></li>
+            
+            </ul>
+           
+            
+           </div>
+              <i class="fas fa-cogs my-style"></i>
+        
+        </div>		
+		</section>
+		
+          
+     <div class="container bg-light text-center mb-5">
+		 <h1  > my notes</h1>
+		 <div class="cont ">
+		<div class="row " id="test">
+		 
+		
+			
+			</div>
+		 </div>
+		</div>
+		<section>
+		
+			
+		</section>
+		
+        <footer ><span class="ml-3 mr-4"><i class="fas fa-phone-alt"></i>+20 01098256702</span><span><i class="far fa-envelope-open"></i>hr_mynote@gmail.com</span><span class="ml-5 pl-5">© 2019 MyNote | all rights reserved</span>
+        </footer>
+        
+        
+        
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>

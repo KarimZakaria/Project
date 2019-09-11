@@ -1,0 +1,229 @@
+
+*
+{
+    box-sizing: border-box;
+
+}
+
+body
+{
+    background-image: url(../image/board.jpg);
+    background-position: center;
+}
+
+    
+}
+@media (max-width:743px)
+{
+    footer span
+    {
+        font-size: 10px !important;
+    }
+    footer span i 
+    {
+        font-size: 13px !important;
+    }
+    
+}
+
+.navbar 
+{
+	background-color: rgba(0,0,0,.6);
+    padding: 0 !important;
+    margin: 0 auto 5px auto!important;    
+    
+}
+
+.navbar-brand
+{
+	margin: auto 0 !important;
+    padding: 0!important;
+}
+.navbar-brand span
+{
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+    font-family: 'Courgette', cursive;
+
+}
+.navbar-brand i
+{
+    font-weight: 400;
+    color: red;
+    
+}
+.nav-link
+{
+    font-family: 'Acme', sans-serif;
+    padding: 10px!important;
+    color: white;
+    font-size: 18px;
+}
+.navbar-toggler-icon i
+{
+    color: white;
+    font-size: 25px;
+}
+.nav-link:hover
+{
+    color: red;
+}
+.regis span:hover
+{
+	color: red;
+}
+.regis 
+{
+	color: white;
+    font-size: 18px;
+    font-family: 'Acme', sans-serif;
+}
+.regis span
+{
+	cursor: pointer;
+    border: 1.5px solid white;
+    padding: 3px;
+}
+
+
+.myBtn2
+{
+	background-color: black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif;
+}
+
+.myBtn
+{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif;
+	
+}
+.myBtn2:hover , .myBtn:hover
+{
+    color: red;
+        
+}
+
+
+
+/*/////////////////////////////////*/
+
+
+
+.info h1
+{
+    color:black;
+    padding-bottom: 6px;
+    border-bottom: 4px black solid;
+    font-weight: 900;
+   font-size: 40px;
+        font-family: 'Acme', sans-serif;
+
+}
+
+.persons
+{
+    position: relative;
+    overflow: hidden;
+        font-family: 'Acme', sans-serif;
+
+    
+}
+.information
+{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    background: #fff;
+    transition: all 1s;
+    transition-delay: .3s;
+    font-family: 'Acme', sans-serif;
+
+    
+}
+
+.persons-info
+{
+    background: rgba(0,33,71,.8);
+    position: absolute;
+    bottom: 100%;
+    height: 85%;
+    left  : 15px;
+    right : 15px;
+    transition: all 1s;
+    font-family: 'Acme', sans-serif;
+
+}
+.persons:hover .persons-info
+{
+    bottom: 15px
+}
+.persons:hover .information
+{
+    bottom: -100%;
+}
+.information p
+{
+    color:red;
+    font-family: 'Acme', sans-serif;
+    font-weight: 500;
+
+}
+.message
+{
+    background-color: black;
+}
+.message:hover
+{
+	color: red;
+    background-color: black;
+}
+.img1{
+    height: 400px;
+}
+.contacts
+{
+    font-family: 'Acme', sans-serif;
+}
+h6
+{
+    font-weight: 700; 
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+/*//////////////////////////////*/
+
+footer
+{
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+    height: 36px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer i
+{
+    margin: 3px;
+    font-size: 23px;
+    color: red;
+}
+footer span
+{
+    color: white;
+ font-size: 18px;
+    font-family: 'Acme', sans-serif;
+}
+
+

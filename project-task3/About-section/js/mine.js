@@ -1,5 +1,5 @@
 $(".message").click(function(){
-    alert("Your Response Has Been Submitted ")
+    alert("PHP Or PYTHON Developer Will Accept Your Contact ")
 })
 
 

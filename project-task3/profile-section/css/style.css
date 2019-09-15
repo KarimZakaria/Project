@@ -142,9 +142,6 @@ textarea
 	position: absolute;
 	right: 0;
 	top: 80px;
-	z-index: 4;
-	
-	
 	
 }
 .color-options ul li
@@ -154,9 +151,7 @@ textarea
     height: 30px; 
     background-color: royalblue; 
     margin: 5px; 
-    cursor: pointer;
-	
-
+    cursor: pointer
 }
 .color-options{
 	

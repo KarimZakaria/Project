@@ -28,7 +28,62 @@ body
     {
         font-size: 13px !important;
     }
+    .sideNav span,.addNote span
+    {
+	    font-size: 15px !important;
+    }
+    .sideNav
+    {
+	top: 250px !important; 
+    }
+    .sideNav i
+    {
+	font-size: 25px !important;
+    }
+    .addNote i
+    {
+	font-size: 22px !important;
+          top: -5px !important;
+        padding: 4px !important;
+    }
+    .addNote
+    {
+	 top: 140px !important;
+    }
+    .instruction
+    {
+        width: 175px !important;
+    }
+    .instructionNote 
+    {
+        width: 120px !important;
+    }
+    .sideNavOpt 
+    {
+	width: 110px !important;
+    height: 120px !important;
+    }
+    .sideNavOpt ul li
+    {
+	height: 14px !important;
+    width: 14px !important;
+    margin: 5px !important;
     
+    }
+    .bgCol 
+    {
+    top: 10% !important;
+	
+    }
+    .fontCol
+    {
+	bottom: -2% !important;
+    }
+    textarea
+    {
+    height: 140px !important;
+    width: 140px !important;
+    }
 }
 
 .navbar 
@@ -271,6 +326,10 @@ textarea
     border-radius: 10px;
     overflow: hidden;
     outline:none;
+    height: 240px ;
+    width: 240px ;
+    
+    
 }
 
 .myDel i 

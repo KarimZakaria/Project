@@ -12,7 +12,7 @@ body
 }
 
     
-}
+
 @media (max-width:743px)
 {
     footer span
@@ -222,7 +222,7 @@ footer i
 footer span
 {
     color: white;
- font-size: 18px;
+    font-size: 18px;
     font-family: 'Acme', sans-serif;
 }
 

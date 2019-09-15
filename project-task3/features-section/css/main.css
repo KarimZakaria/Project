@@ -11,7 +11,7 @@ body
     background-position: center;
 }
 
-}
+
 @media (max-width:743px)
 {
     footer span
@@ -29,7 +29,7 @@ body
 {
 	background-color: rgba(0,0,0,.6);
     padding: 0 !important;
-    margin: 0 auto 5px auto!important;    
+    margin: 0 auto 5px auto!important;  
     
 }
 
@@ -119,7 +119,7 @@ body
     border: 1px black solid;
     border-radius: 5px;
     box-shadow: 3px 13px 37px black;
- font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;
 
     
 }
@@ -162,7 +162,6 @@ h1
 
 footer
 {
-    bottom: 0;
     background-color: rgba(0,0,0,.8);
     height: 36px;
     width: 100%;
@@ -180,7 +179,6 @@ footer i
 footer span
 {
     color: white;
- font-size: 18px;
+    font-size: 18px;
     font-family: 'Acme', sans-serif;
 }
-

@@ -136,7 +136,7 @@ $(".cont" ).on("click", function() {
 
 
 let x = ` <div class="note">
- <textarea cols="20" rows="6"></textarea><span class=" myDel"><i class="far fa-times-circle"></i></span></div>`;
+ <textarea ></textarea><span class=" myDel"><i class="far fa-times-circle"></i></span></div>`;
     
     
 $(".addNote i").click(function () { 

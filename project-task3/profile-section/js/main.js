@@ -68,7 +68,7 @@ function displaydata(){
 	var trs="";
 	for(var i=0; i<notecontainer.length;i++)
 		{
-				trs+='<div class="col-md-4 my-3	 "><div class="p-3 border m-2"><h3 >'+notecontainer[i].name+'</h3><p>'+notecontainer[i].text+'</p><button onclick="deletnote('+i+')" class="btn btn-danger"> delet</button><button onclick="setform('+i+')" class="btn btn-primary m-1"> update  </button></div></div>';
+				trs+='<div class="col-md-4 my-3	 "><div class="p-3 border m-2"><h3 >'+notecontainer[i].name+'</h3><p>'+notecontainer[i].text+'</p><button onclick="deletnote('+i+')" class="btn btn-danger"> Delete</button><button onclick="setform('+i+')" class="btn btn-primary m-1"> Update  </button></div></div>';
 
 	}
 	document.getElementById("test").innerHTML=trs;
@@ -120,7 +120,6 @@ function update(currentindex)
 
 
 $( "i").click(function() {
-	
 	
 	$(".color-options").toggle(500);
 	

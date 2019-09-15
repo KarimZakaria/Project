@@ -212,3 +212,8 @@ footer span
 	height: 100px;
 	background-color:aliceblue;
 }
+
+.cont{
+	height: 500px;
+	overflow:auto;
+}

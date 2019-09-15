@@ -162,6 +162,7 @@ textarea
 	
 	background-color: white;
     border: 2px black solid;
+	display: none;
 }
 
 .my-style {
